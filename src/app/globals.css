@@ -16,6 +16,16 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+      --purple-100: #7400b8;
+  --purple-200: #8013bd;
+  --purple-300: #8b26c3;
+  --purple-400: #9739c8;
+  --purple-500: #a24ccd;
+  --purple-600: #ae60d3;
+  --purple-700: #b973d8;
+  --purple-800: #c586dd;
+  --purple-900: #d099e3;
+  --purple-1000: #dcace8;
   }
 }
 
