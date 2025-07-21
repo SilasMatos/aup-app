@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Baloo_2 } from 'next/font/google'
 import './globals.css'
 
-const poppins = Poppins({
+const baloo2 = Baloo_2({
   subsets: ['latin'],
-  weight: ['400', '600', '700', '800'],
-  variable: '--font-poppins',
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-baloo2',
   display: 'swap'
 })
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className={`${poppins.variable} antialiased bg-white`}>
+      <body className={`${baloo2.variable} antialiased bg-white`}>
         {children}
       </body>
     </html>
