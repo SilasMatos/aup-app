@@ -1,23 +1,7 @@
 'use client'
-import React, { useEffect, useRef } from 'react'
-import { motion, useScroll, useTransform, useInView } from 'framer-motion'
-import {
-  ChevronRight,
-  Code,
-  Smartphone,
-  Globe,
-  Users,
-  Award,
-  Mail,
-  Phone,
-  MapPin,
-  Star,
-  ArrowRight,
-  CheckCircle,
-  Target,
-  Zap,
-  Heart
-} from 'lucide-react'
+import React, { useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
+import { Code, Smartphone, Globe, CheckCircle } from 'lucide-react'
 
 function SolutionsSection() {
   const ref = useRef(null)

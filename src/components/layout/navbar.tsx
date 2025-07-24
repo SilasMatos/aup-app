@@ -1,23 +1,6 @@
 'use client'
-import React, { useEffect, useRef } from 'react'
-import { motion, useScroll, useTransform, useInView } from 'framer-motion'
-import {
-  ChevronRight,
-  Code,
-  Smartphone,
-  Globe,
-  Users,
-  Award,
-  Mail,
-  Phone,
-  MapPin,
-  Star,
-  ArrowRight,
-  CheckCircle,
-  Target,
-  Zap,
-  Heart
-} from 'lucide-react'
+import React, { useEffect } from 'react'
+import { motion } from 'framer-motion'
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = React.useState(false)

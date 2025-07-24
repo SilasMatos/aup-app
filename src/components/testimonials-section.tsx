@@ -1,24 +1,8 @@
 'use client'
 
-import React, { useEffect, useRef } from 'react'
-import { motion, useScroll, useTransform, useInView } from 'framer-motion'
-import {
-  ChevronRight,
-  Code,
-  Smartphone,
-  Globe,
-  Users,
-  Award,
-  Mail,
-  Phone,
-  MapPin,
-  Star,
-  ArrowRight,
-  CheckCircle,
-  Target,
-  Zap,
-  Heart
-} from 'lucide-react'
+import React, { useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
+import { Star } from 'lucide-react'
 
 function TestimonialsSection() {
   const ref = useRef(null)
@@ -81,7 +65,7 @@ function TestimonialsSection() {
                   />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"{testimonial.text}"</p>
+              <p className="text-gray-700 mb-6 italic">{testimonial.text}</p>
               <div>
                 <p className="font-semibold text-purple-900">
                   {testimonial.author}
